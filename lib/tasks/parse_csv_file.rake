@@ -4,7 +4,7 @@ namespace :execute_parsing do
   desc "Parse the Covid Observation data and merge it to model"
 
   task csv_to_model: :environment do
-    file_path = "#{Rails.root}/tmp/storage/covid_19_data.csv".freeze
+    file_path = "#{Rails.root}/storage/covid_19_data.csv".freeze
 
     #read the csv file from file path
     csv_text = File.read(file_path)
