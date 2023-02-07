@@ -37,8 +37,8 @@
    ```
    
  ## For testing
- 1. Also I used rspec for unit test
- 2. I used Postman to test the API
+ 1. Also I used rspec for TDD
+ 2. Postman to test the API
     params: 
       - observation_date(yyyy-dd-mm)
       - max_results(number)
