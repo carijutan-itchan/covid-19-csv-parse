@@ -37,7 +37,7 @@
    ```
    
  ## For testing
- 1. Also I used rspec for TDD
+ 1. Also I used rspec for TDD/BDD
  2. Postman to test the API
     params: 
       - observation_date(yyyy-dd-mm)
