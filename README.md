@@ -31,7 +31,7 @@
    ```bash
    bin/rails s -p 3016
    ```
- 7. You can test this by using this API (POST METHOD)
+ 7. You can test this by using this API (GET METHOD)
    ```bash
    localhost:3016/top/confirmed
    ```
