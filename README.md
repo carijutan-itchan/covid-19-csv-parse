@@ -20,7 +20,7 @@
    ```bash
    bin/rails db:create db:migrate
    ```
-5.  Go to root directory run the tasks that will parse the CSV to Model
+5.  Go to root directory run the tasks that will parse the CSV and save to Model
 
   ```bash
    rake execute_parsing:csv_to_model
@@ -44,7 +44,7 @@
       - observation_date(yyyy-dd-mm)
       - max_results(number)
       
- 3. This are the sample payload for testing
+ 3. This are the sample response from testing
  
    ```bash
     {
